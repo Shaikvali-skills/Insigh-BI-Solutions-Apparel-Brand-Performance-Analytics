@@ -1,16 +1,17 @@
 # Insigh BI Solutions - Apparel Brand Performance Analytics
 
-An interactive Business Intelligence solution engineered in Power BI to evaluate inventory diversity, retail pricing strategies, discount impact, and profit margins across a diverse portfolio of apparel brands.
+An interactive, cloud-connected Business Intelligence solution engineered in Power BI to evaluate inventory diversity, retail pricing strategies, discount impact, and profit margins across a diverse portfolio of apparel brands.
 
 ## 🔗 Live Interactive Dashboard
-[View Interactive Power BI Dashboard](https://app.powerbi.com/groups/b358022c-4af9-4f76-8416-30cbc584469b/reports/259a081f-8230-4faa-aaaa-67bac4c7fe88/31d7d7f6eeed6714331b?experience=power-bi)
+[View Interactive Power BI Dashboard](Insert_Your_Power_BI_Publish_Link_Here)
 
 ---
 
 ## 📌 Project Overview
-Navigating retail data requires deep visibility into product catalogs and financial performance metrics. This project breaks down transactional apparel metrics to analyze pricing hierarchies, promotional discount dependencies, and catalog saturation levels across premium and economy market brands.
+Navigating modern retail data requires deep visibility into massive, scalable datasets. This project connects directly to an **Azure Cloud Data Platform** to ingest historical apparel metrics, analyzing pricing hierarchies, promotional discount dependencies, and catalog saturation levels across premium and economy market brands in near real-time.
 
 ### Key Features:
+* **Cloud Data Architecture:** Fueled by a robust Azure data stream for seamless enterprise scaling and reliable refreshes.
 * **Assortment Distribution Mapping:** Quantifies individual brand variety count relative to the total apparel portfolio.
 * **Pricing Tier Stratification:** Segments premium market entries from low-margin, high-discount retail operators.
 * **Profit Margin Auditing:** Visualizes peak average profit baselines alongside low-margin warning segments to simplify stock optimization decisions.
@@ -37,10 +38,11 @@ An elegant gold-on-navy analytical command workspace exploring multi-tiered bran
 
 ---
 
-## 🛠️ Technical Stack & Data Model
-* **BI Platform:** Power BI Desktop
-* **Data Prep & ETL:** Power Query
-* **Data Schema Context:** Built around unified transactional nodes containing structural product variables.
+## 🛠️ Technical Stack & Cloud Architecture
+* **BI Platform:** Power BI Desktop / Power BI Service
+* **Cloud Infrastructure & Data Source:** **Azure SQL Database / Azure Data Lake**
+* **Data Prep & ETL:** Power Query (orchestrating cloud data transformations, type casting, and schema enforcement)
+* **Data Schema Context:** Cloud-hosted relational transactional nodes tracking product parameters.
 
 ### Core Data Fields Evaluated:
 * `Brand` (Categorical naming identifiers)
@@ -51,8 +53,9 @@ An elegant gold-on-navy analytical command workspace exploring multi-tiered bran
 
 ---
 
-## 🚀 Local Setup Instructions
+## 🚀 Local Setup & Cloud Connection
 1. Clone this repository to your local directory.
 2. Open the `Insigh_BI_Brands_Project.pbix` file using **Power BI Desktop**.
-3. Place your raw dataset files into your target storage path or update your source configurations.
-4. Click **Refresh** to synchronize the semantic structure.
+3. To sync live data, navigate to **Home > Data source settings**.
+4. Change the source path to point to your deployed **Azure SQL Server/Database** instance.
+5. Provide your Azure credentials (or OAuth2 authorization tokens) and click **Refresh** to synchronize the cloud semantic structure.
