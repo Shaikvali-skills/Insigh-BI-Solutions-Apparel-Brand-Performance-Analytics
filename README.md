@@ -23,12 +23,12 @@ Navigating modern retail data requires deep visibility into massive, scalable da
 ### 1. Welcome Splash Canvas
 A high-fidelity landing plane establishing corporate brand alignment for an "Exclusive Men's Collection" lookup list.
 
-![Men's Collection Splash Page](Screenshot%202026-06-23%20165841.png)
+![Brands Performance Analysis](Screenshot%202026-06-23%20165851.png)
 
 ### 2. Brands Analysis Interface
 An elegant gold-on-navy analytical command workspace exploring multi-tiered brand performance data.
 
-![Brands Performance Analysis](Screenshot%202026-06-23%20165851.png)
+![Men's Collection Splash Page](Screenshot%202026-06-23%20165841.png)
 
 #### Key Metric Breakdowns Captured:
 * **Catalog Variety Leaders:** `The Indian Garage Co` leads stock keeping depth with **51 varieties (22.87%)**, while `SNITCH` sits at **36 varieties (16.14%)**.
